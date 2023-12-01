@@ -15,18 +15,18 @@ import WorkWithUs from "@/components/WorkWithUs/WorkWithUs"
 export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center">
-      <Navbar/>
-      <Hero/>
-      <EQ_IQ/>
-      <Features/>
-      <AheadApp/>
-      <Improvement/>
-      <BestEQ/>
-      <Wondered/>
-      <Signature/>
-      <WorkWithUs/>
-      <Vacancies/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <EQ_IQ />
+      <Features />
+      <AheadApp />
+      <Improvement />
+      <BestEQ />
+      <Wondered />
+      <Signature />
+      <WorkWithUs />
+      <Vacancies />
+      <Footer />
     </main>
   )
 }
