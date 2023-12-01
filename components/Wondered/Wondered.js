@@ -5,7 +5,7 @@ import Image from "next/image";
 const Wondered = () => {
   return (
     <>
-      <section className="mt-16 mb-32 rounded-3xl bg-blue-50 p-10 mx-24">
+      <section className="mt-16 mb-16 rounded-3xl bg-blue-50 p-10 mx-24">
         <motion.div
           initial="hidden"
           whileInView="visible"
