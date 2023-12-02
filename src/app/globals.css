@@ -42,3 +42,32 @@ body {
     }
   }
 }
+
+/* scrollbar  */
+
+/* width */
+::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 8px;
+  transition-duration: 300ms;
+
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #b9aaf1; 
+  transition-duration: '0.3s';
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9379f0; 
+}
